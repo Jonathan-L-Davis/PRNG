@@ -39,7 +39,6 @@ struct u128{
         return c;
     }
     
-    // not using karatsuba's. If this is ever "production" code, I should probably switch to a variant of it.
     friend u128 operator * (u128 a, u128 b){
         u128 c{};
         
